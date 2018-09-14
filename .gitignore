@@ -4,3 +4,4 @@ artisan
 phpunit.xml
 vendor/
 storage/
+*test*.php
