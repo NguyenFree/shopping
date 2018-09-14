@@ -19,8 +19,9 @@ class CreateUsersProduct extends Migration
             $table->float('unit_price');
             $table->float('promotion_price');
             $table->string('image');
-            $table->char('desc',500);
+            $table->char('desc',200);
             $table->timestamp();
+            
         });
     }
 
@@ -31,6 +32,6 @@ class CreateUsersProduct extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('product');
     }
 }
