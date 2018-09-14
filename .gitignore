@@ -2,3 +2,5 @@
 artisan
 *.lock
 phpunit.xml
+vendor/
+storage/
